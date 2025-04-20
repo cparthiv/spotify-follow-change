@@ -20,4 +20,4 @@ Run the script!
 
 ## My setup
 
-After running this for the first time, the program doesn't need to authenticate you _usually_ unless access is revoked. I set up a [Cron job](https://en.wikipedia.org/wiki/Cron) to run this every hour, so that I get notified timely when someone unfollows or follows me.
+After running this for the first time, the program doesn't need to authenticate you _usually_ unless access is revoked. On one of my servers, I set up a [Cron job](https://en.wikipedia.org/wiki/Cron) to run this every hour, so that I get notified timely when someone unfollows or follows me. Most people using this will probably be on Windows, so just use task scheduler! Create a batch file if necessary.
