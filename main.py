@@ -24,7 +24,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
 
 if verbose_logs:
     r = requests.post(os.getenv("VERBOSE_LOGS_WEBHOOK"),
-                      json={"content": f"Authenticating... Token: {TOKEN_CACHE}"})
+                      json={"content": f"Authenticating..."})
     r.raise_for_status()
 
 
